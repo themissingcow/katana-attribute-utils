@@ -87,7 +87,7 @@ namespace TC_AttributeUtils {
         const bool useConsntantModifier = (numModifiersValues != numSrcValues);
 
         std::vector<float> sampleTimes(numSrcSamples);
-        std::vector<class A::value_type> newVals;
+        std::vector<typename A::value_type> newVals;
         newVals.reserve(numSrcValues * numSrcSamples);
 
         for(int64_t s=0; s<numSrcSamples; ++s) {
