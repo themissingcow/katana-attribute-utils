@@ -184,7 +184,9 @@ namespace TC_AttributeUtils {
 
           case ToIntensity:
             return pow(2.0, value);
-
+            
+          default:
+            return value;
         }
 
       }
